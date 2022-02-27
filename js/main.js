@@ -38,7 +38,7 @@ for (let i = 0; i < arrNum.length; i++) {
 
 alert(somma);*/
 
-const arrGuests = ["daisy", "nick", "tom", "myrtle", "george"];
+/*const arrGuests = ["daisy", "nick", "tom", "myrtle", "george"];
 console.log(arrGuests);
 
 const userName = prompt("Insert your name");
@@ -56,4 +56,15 @@ if (found) {
     console.log("You are in")        
 }else{
     console.log("Get out of here")
+}*/
+
+const arrNum = []
+console.log (arrNum)
+
+for (let i = 0; i < 6; i++) {
+    const num = parseInt(prompt("Write a nuber"));
+
+    if (num % 2 != 0) {
+        arrNum.push(num);
+    }
 }
