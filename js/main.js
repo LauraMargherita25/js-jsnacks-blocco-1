@@ -53,13 +53,13 @@ for (let i = 0; i < arrGuests.length; i++) {
 }
 
 if (found) {
-    console.log("You are in")        
+    console.log("You are in");        
 }else{
-    console.log("Get out of here")
+    console.log("Get out of here");
 }*/
 
-const arrNum = []
-console.log (arrNum)
+/*const arrNum = []
+console.log (arrNum);
 
 for (let i = 0; i < 6; i++) {
     const num = parseInt(prompt("Write a nuber"));
@@ -67,4 +67,13 @@ for (let i = 0; i < 6; i++) {
     if (num % 2 != 0) {
         arrNum.push(num);
     }
+}*/
+
+const num = prompt("Write a four-digit number");
+
+let sum = 0;
+for ( let i = 0; i < num.toString().length; i++) {
+    sum += parseInt(num.toString()[i]);
 }
+
+alert(sum);
