@@ -140,9 +140,12 @@ if (num < 1000 || num > 9999){
     console.log(sum)
 }*/
 
+
+
+
 /* #### Snack 1.9 #### */
 
-let sum = 0;
+/*let sum = 0;
 for (let number = 1; number <= 10; number++) {
 
     sum += number;
@@ -153,4 +156,20 @@ for (let number = 1; number <= 10; number++) {
 let media = sum / 10;
 
 console.log(sum);
-console.log(media);
+console.log(media);*/
+
+
+
+
+/* #### Snack 2.1 #### */
+
+
+let sum = 0;
+for (let i = 0; i < 5; i++) {
+    
+    let userInput = parseInt(prompt("Write a number"));
+    console.log(userInput);
+    
+    sum = sum + userInput;
+}
+console.log(sum);
