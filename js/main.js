@@ -199,7 +199,7 @@ console.log(sum);*/
 
 /* #### Snack 2.2 #### */
 
-let i = 0;
+/*let i = 0;
 
 while (i >= 0) {
     
@@ -212,4 +212,22 @@ while (i >= 0) {
         console.log("Bravo! Hai inserito un numero pari" + " " +userInput);
     }
 
+}*/
+
+
+
+
+/* #### Snack 2.3 #### */
+
+const arrName = ["Arthas", "Sylvanas", "Jaina", "Tyrande", "Illidan"];
+const arrSurname = ["Menethil", "Windrunner", "Proudmore", "Whisperwind", "Stormrage"];
+
+for (let i = 0; i < 3; i++) {
+
+    let randomNanme = Math.floor(Math.random()*arrName.length);
+    console.log("il vincitore è..." + randomNanme);
+    
+    // let randomSurnanme = Math.floor(Math.random()*arrSurname.length);
+
+    
 }
