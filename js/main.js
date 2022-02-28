@@ -164,12 +164,27 @@ console.log(media);*/
 /* #### Snack 2.1 #### */
 
 
-let sum = 0;
+/*let sum = 0;
 for (let i = 0; i < 5; i++) {
     
     let userInput = parseInt(prompt("Write a number"));
     console.log(userInput);
     
     sum = sum + userInput;
+    console.log(sum);
 }
+console.log(sum);*/
+
+let i = 0;
+let sum = 0;
+
+while (i < 5) {
+    let userInput = parseInt(prompt("Write a number"));
+    
+    sum = sum + userInput;
+    console.log(sum);
+
+    i++;
+}
+
 console.log(sum);
