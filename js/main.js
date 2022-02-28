@@ -164,6 +164,8 @@ console.log(media);*/
 /* #### Snack 2.1 #### */
 
 
+/* --- loop for --- */
+
 /*let sum = 0;
 for (let i = 0; i < 5; i++) {
     
@@ -175,7 +177,10 @@ for (let i = 0; i < 5; i++) {
 }
 console.log(sum);*/
 
-let i = 0;
+
+/* --- loop while --- */
+
+/*let i = 0;
 let sum = 0;
 
 while (i < 5) {
@@ -187,4 +192,24 @@ while (i < 5) {
     i++;
 }
 
-console.log(sum);
+console.log(sum);*/
+
+
+
+
+/* #### Snack 2.2 #### */
+
+let i = 0;
+
+while (i >= 0) {
+    
+    let userInput = parseInt(prompt("Write a number"));
+
+    if (userInput % 2 != 0){
+        userInput = userInput + 1;
+        console.log("Il numero che hai inserito non era pari maledetto =<" + " " + userInput);
+    }else{
+        console.log("Bravo! Hai inserito un numero pari" + " " +userInput);
+    }
+
+}
