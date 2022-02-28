@@ -219,19 +219,17 @@ while (i >= 0) {
 
 /* #### Snack 2.3 #### */
 
-const arrName = ["Arthas", "Sylvanas", "Jaina", "Tyrande", "Illidan"];
-var randomName = arrName[Math.floor(Math.random() * arrName.length)];
-
-
-const arrSurname = ["Menethil", "Windrunner", "Proudmore", "Whisperwind", "Stormrage"];
-var randomSurname = arrSurname[Math.floor(Math.random() * arrSurname.length)];
 
 for (let i = 0; i < 3; i++) {
     
+    const arrName = ["Arthas", "Sylvanas", "Jaina", "Tyrande", "Illidan"];
+    var randomName = arrName[Math.floor(Math.random() * arrName.length)];
+    
+    
+    const arrSurname = ["Menethil", "Windrunner", "Proudmore", "Whisperwind", "Stormrage"];
+    var randomSurname = arrSurname[Math.floor(Math.random() * arrSurname.length)];
+    
     console.log(randomName + " " + randomSurname);
 
-    if () {
-        
-    }
     
 }
