@@ -108,8 +108,8 @@ for (let i = 0; i < 6; i++) {
 /*const num = prompt("Write a four-digit number");
 
 let sum = 0;
-for ( let i = 0; i < num.toString().length; i++) {
-    sum += parseInt(num.toString()[i]);
+for ( let i = 0; i < num.length; i++) {
+    sum += parseInt(num[i]);
 }
 
 alert(sum);*/
@@ -119,7 +119,7 @@ alert(sum);*/
 
 let sum = 0;
 
-for (let i = 0; i < stingNum.length; i++) {
+for (let i = 0; i < stringNum.length; i++) {
     sum = sum + parseInt(stringNum[i]);
 }
 
@@ -220,7 +220,7 @@ while (i >= 0) {
 /* #### Snack 2.3 #### */
 
 
-for (let i = 0; i < 3; i++) {
+/*for (let i = 0; i < 3; i++) {
     
     const arrName = ["Arthas", "Sylvanas", "Jaina", "Tyrande", "Illidan"];
     var randomName = arrName[Math.floor(Math.random() * arrName.length)];
@@ -230,6 +230,4 @@ for (let i = 0; i < 3; i++) {
     var randomSurname = arrSurname[Math.floor(Math.random() * arrSurname.length)];
     
     console.log(randomName + " " + randomSurname);
-
-    
-}
+}*/
