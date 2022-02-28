@@ -48,6 +48,17 @@ for (let i = 0; i < arrNum.length; i++) {
 
 alert(somma);*/
 
+/*let sum = 0; questo valore deve rimanere fuori dal ciclo
+
+for (let i = 0; i < 10; i++) {
+    
+    let num = parseInt(prompt("Write a number"));
+    
+    sum = sum + num;
+    
+}
+
+console.log(sum);*/
 
 
 
@@ -61,7 +72,7 @@ const userName = prompt("Insert your name");
 let found = false;
 for (let i = 0; i < arrGuests.length; i++) {
     
-    if(arrGuests[i] === userName){
+    if(arrGuests[i].toLowerCase() == userName.toLowerCase()){
         found = true;
     }
 
@@ -102,3 +113,44 @@ for ( let i = 0; i < num.toString().length; i++) {
 }
 
 alert(sum);*/
+
+
+/*const stringNum = prompt("Write a four-digit number");
+
+let sum = 0;
+
+for (let i = 0; i < stingNum.length; i++) {
+    sum = sum + parseInt(stringNum[i]);
+}
+
+console.log(sum);*/
+
+
+/* con la divisione */
+/*let num = parseInt(prompt("Write a four-digit number"));
+
+if (num < 1000 || num > 9999){
+    console.log("numero di cifre sbagliato")
+}else{
+    let sum = 0;
+    for (let i = 0; i < 4; i++){
+        sum += num % 10;
+        num = Math.floor(num / 10)
+    }
+    console.log(sum)
+}*/
+
+/* #### Snack 1.9 #### */
+
+let sum = 0;
+for (let number = 1; number <= 10; number++) {
+
+    sum += number;
+    console.log(number);
+
+}
+
+let media = sum / 10;
+
+console.log(sum);
+console.log(media);
